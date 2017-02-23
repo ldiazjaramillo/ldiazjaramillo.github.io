@@ -1,311 +1,694 @@
-<!DOCTYPE HTML>
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png">
-    <link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" media="screen and (max-device-width: 320px)" />
-    <link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" />
-    <link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen@3x.png" />
-    <link rel="apple-touch-startup-image" sizes="1024x748" href="http://www.enableds.com/products/profiler/images/splash/splash-screen-ipad-landscape" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : landscape)"
-    />
-    <link rel="apple-touch-startup-image" sizes="768x1004" href="images/splash/splash-screen-ipad-portrait.png" media="screen and (min-device-width : 481px) and (max-device-width : 1024px) and (orientation : portrait)" />
-    <link rel="apple-touch-startup-image" sizes="1536x2008" href="images/splash/splash-screen-ipad-portrait-retina.png" media="(device-width: 768px)	and (orientation: portrait)	and (-webkit-device-pixel-ratio: 2)" />
-    <link rel="apple-touch-startup-image" sizes="1496x2048" href="images/splash/splash-screen-ipad-landscape-retina.png" media="(device-width: 768px)	and (orientation: landscape)	and (-webkit-device-pixel-ratio: 2)" />
-    <title>Mister Diaz</title>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link href="styles/framework.css" rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.min.css" rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" type="text/css">
+    <!-- Encoding -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Viewport width and initial-scale on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Home | My Desktop</title>
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#e0e6e9">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#e0e6e9">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#e0e6e9">
+    <!-- end mobile tab color -->
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,500,300' rel='stylesheet' type='text/css'>
+    <!-- Font Ukie -->
+    <link type="text/css" media="all" href="./assets/font/font-ukie/css/A.font-ukie.css" rel="stylesheet">
+    <!-- include the bootstrap stylesheet -->
+    <link rel="stylesheet" href="./assets/css/A.bootstrap.min.css+magnific-popup.css+color-one.css,Mcc.TQgMLGGb1-.css.pagespeed.cf.8K9fGS-5RW.css">
+    <!-- include magnific-popup stylesheet -->
+    
+    <!-- include the site stylesheet -->
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/favicons/xapple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/favicons/xapple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/favicons/xapple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="./assets/img/favicons/xapple-touch-icon.png">
+    <link rel="shortcut icon" href="./assets/img/favicons/xapple-touch-icon.png">
+<style>
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+</style>
 </head>
+<body data-spy="scroll" data-target="#menu">
 
-<body>
-    <div id="preloader">
-        <div id="status">
-            <p class="center-text">
-                Loading the content...
-                <em>Loading depends on your connection speed!</em>
-            </p>
-        </div>
-    </div>
-    <div class="all-elements">
-        <div id="content" class="page-content">
-            <div class="homepage-top">
-                <div class="homepage-header">
-                    <em>Welcome</em>
-                </div>
-                <div class="homepage-logo">
-                    <img src="images/logo-big.png" width="160" alt="logo">
-                </div>
-                <div class="homepage-controls">
-                    <a class="homepage-box-one-deploy active-homepage" href="index.html#">About</a>
-                    <a class="homepage-box-two-deploy" href="index.html#">Skillset</a>
-                    <a class="homepage-box-three-deploy" href="index.html#">Contact</a>
-                </div>
-                <div class="overlay"></div>
+<!-- Start header -->
+<header class="header default-section" id="navhead">
+
+    <!-- Start  container-->
+    <div class="container">
+
+        <!-- Start row-->
+        <div class="row text-center">
+            <div class="col-md-5 inline-div">
+                <h1 class="header-title">
+                    <a href="javascript:void(0);" class="photo-icon"><i class="uf uf-camera"></i></a>
+                    
+                    <!-- Start shadow modal-->
+                    <span class="popup-photo">
+                        <span class="shadow-popup"></span>
+                        <span class="popup-place">
+                            <i class="btn-close uf uf-close-small"></i>
+                            <img src="./assets/img/xphoto.jpg" alt="" data-pagespeed-url-hash="2397472968" >
+                            <span class="popup-text">Hello!</span>
+                        </span>
+                    </span>
+                    <!-- End shadow modal-->
+                </h1>
             </div>
-            <div class="content">
-                <div class="homepage-box-one active-homepage-box">
-                    <div class="container">
-                        <h3 class="homepage-heading">
-                        I am a Passionate developer, always updating, always trying to improve myself and my code. Trust and hard work, values that will never be outdated for me.
-                        </h3>
-                    </div>
-                    <div class="decoration"></div>
-                    <div class="one-half-responsive no-bottom">
-                        <div class="column-icon full-bottom">
-                            <i class="fa fa-institution"></i>
-                            <h3>Education</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur elit. Nulla nulla non dolor lacinia dolor lacinia , id pretium augue sodales ipsumis.
-                            </p>
-                        </div>
-                        <div class="container center-element">
-                            <h4 class="center-text">Web Design & Development</h4>
-                            <p><i class="fa fa-location-arrow"></i>Planet Mars, The Universe</p>
-                            <p><i class="fa fa-trophy"></i>Web Master Degree</p>
-                            <p><i class="fa fa-calendar-o"></i>2004 - 2007</p>
-                        </div>
-                        <div class="container center-element">
-                            <h4 class="center-text">Mobile & Tablet Templates & Themes</h4>
-                            <p><i class="fa fa-location-arrow"></i>Envato Market, Melbourne Victoria</p>
-                            <p><i class="fa fa-trophy"></i>Elite Author, Mobile Niche</p>
-                            <p><i class="fa fa-calendar-o"></i>2009 - 2014</p>
-                        </div>
-                    </div>
-                    <div class="decoration hide-if-responsive"></div>
-                    <div class="one-half-responsive last-column">
-                        <div class="column-icon full-bottom">
-                            <i class="fa fa-pencil"></i>
-                            <h3>Workplaces</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur elit. Nulla nulla non dolor lacinia dolor lacinia , id pretium augue sodales ipsumis.
-                            </p>
-                        </div>
-                        <div class="container center-element">
-                            <h4 class="center-text">Founder at <a href="index.html#">Enabled</a></h4>
-                            <p><i class="fa fa-user"></i>Designer & Developer</p>
-                            <p><i class="fa fa-link"></i><a class="regular-anchor" href="index.html#">www.domain.com</a></p>
-                            <p><i class="fa fa-calendar-o"></i>2009 - 2014</p>
-                        </div>
-                        <div class="container center-element">
-                            <h4 class="center-text">Microstock at <a href="index.html#">ThemeForest</a></h4>
-                            <p><i class="fa fa-user"></i>Author & Elite Author</p>
-                            <p><i class="fa fa-link"></i><a class="regular-anchor" href="index.html#">www.domain.com</a></p>
-                            <p><i class="fa fa-calendar-o"></i>2009 - 2014</p>
-                        </div>
-                    </div>
+            <div class="col-md-8 inline-div">
+                <h1 class="header-title">
+                    <div>Hello. I’m Mr. Diaz</div>
+                    <div>I'm a <span id="typed"></span></div>
+                </h1>
+            </div>
+        </div>
+        <!-- End  row-->
+
+        <!-- Start row-->
+        <div class="row menu">
+            <div class="col-md-12">
+                <div class="mob-menu">
+                    <ul>
+                        <li>
+                            <a href="#navabout"><img src="./assets/img/menu-about.svg" alt="" data-pagespeed-url-hash="3511740738" >
+                                <p class="menu-text">About</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#navresume"><img src="./assets/img/menu-resume.svg" alt="" data-pagespeed-url-hash="839341276" >
+                                <p class="menu-text">Resume</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#navportfolio"><img src="./assets/img/menu-portfolio.svg" alt="" data-pagespeed-url-hash="2755832901" >
+                                <p class="menu-text">Portfolio</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#navcontact"><img src="./assets/img/menu-contacts.svg" alt="" data-pagespeed-url-hash="3793891434" >
+                                <p class="menu-text">Contacts</p>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="homepage-box-two">
-                    <div class="container no-bottom">
-                        <h3>John Doe Skills</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut lacus pulvinar, semper nulla at, volutpat tellus. Quisque et dui feugiat, pellentesque neque quis, aliquam massa. Proin et lorem turpis.
-                        </p>
-                    </div>
-                    <div class="decoration"></div>
-                    <div class="one-half-responsive">
-                        <h4 class="half-bottom">Profesional Skills</h4>
-                        <p>
-                            These is the awesome skillset section John Doe provides, this section is CSS3 built, and you can animate the sections using simple animate.css.
-                        </p>
-                        <div class="chart chart-round">
-                            <strong>First Skill</strong>
-                            <em>10%</em>
-                            <div class="chart-background">
-                                <div class="magenta-chart p10"></div>
-                            </div>
-                        </div>
-                        <div class="chart chart-round">
-                            <strong>Second Skill</strong>
-                            <em>30%</em>
-                            <div class="chart-background">
-                                <div class="red-chart p30"></div>
-                            </div>
-                        </div>
-                        <div class="chart chart-round">
-                            <strong>Third Skill</strong>
-                            <em>30%</em>
-                            <div class="chart-background">
-                                <div class="yellow-chart p50"></div>
-                            </div>
-                        </div>
-                        <div class="chart chart-round">
-                            <strong>Forth Skill</strong>
-                            <em>70%</em>
-                            <div class="chart-background">
-                                <div class="blue-chart p70"></div>
-                            </div>
-                        </div>
-                        <div class="chart chart-round">
-                            <strong>Fifth Skill</strong>
-                            <em>90%</em>
-                            <div class="chart-background">
-                                <div class="green-chart p90"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="decoration hide-if-responsive"></div>
-                    <div class="one-half-responsive last-column">
-                        <h4 class="half-bottom">Software Skills</h4>
-                        <p>
-                            These is the awesome skillset section John Doe provides, this section is CSS3 built, and you can animate the sections using simple animate.css.
-                        </p>
-                        <div class="chart chart-round">
-                            <strong>Fifth Skill</strong>
-                            <em>90%</em>
-                            <div class="chart-background">
-                                <div class="green-chart p90"></div>
-                            </div>
-                        </div>
-                        <div class="chart chart-round">
-                            <strong>Forth Skill</strong>
-                            <em>70%</em>
-                            <div class="chart-background">
-                                <div class="blue-chart p70"></div>
-                            </div>
-                        </div>
-                        <div class="chart chart-round">
-                            <strong>Third Skill</strong>
-                            <em>30%</em>
-                            <div class="chart-background">
-                                <div class="yellow-chart p50"></div>
-                            </div>
-                        </div>
-                        <div class="chart chart-round">
-                            <strong>Second Skill</strong>
-                            <em>30%</em>
-                            <div class="chart-background">
-                                <div class="red-chart p30"></div>
-                            </div>
-                        </div>
-                        <div class="chart chart-round">
-                            <strong>First Skill</strong>
-                            <em>10%</em>
-                            <div class="chart-background">
-                                <div class="magenta-chart p10"></div>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <!-- End  row-->
+
+        <!-- Start row-->
+        <div class="row menu">
+            <div class="col-md-12">
+                <div id="menu" class="mob-menu default-menu">
+                    <!-- Start ul-->
+                    <ul class="nav" role="tablist">
+                        <li>
+                            <!-- Start menu-item-->
+                            <a href="#navabout">About</a>
+                            <!-- End menu-item-->
+                        </li>
+                        <li>
+                            <!-- Start menu-item-->
+                            <a href="#navresume">Resume</a>
+                            <!-- End menu-item-->
+                        </li>
+                        <li>
+                            <!-- Start menu-item-->
+                            <a href="#navportfolio">Portfolio</a>
+                            <!-- End menu-item-->
+                        </li>
+                        <li>
+                            <!-- Start menu-item-->
+                            <a href="#navblog">Blog</a>
+                            <!-- End menu-item-->
+                        </li>
+                        <li>
+                            <!-- Start menu-item-->
+                            <a href="#navcontact">Contacts</a>
+                            <!-- End menu-item-->
+                        </li>
+                    </ul>
+                    <!-- End ul-->
                 </div>
-                <div class="homepage-box-three">
-                    <div class="container no-bottom">
-                        <h3>Use our socials</h3>
-                        <p>
-                            This side is dedicated to all the social networks, phone numbers and other details you may want to include about John Doe. Styled and made to look just awesome on mobile and tablet devices!
-                        </p>
+            </div>
+        </div>
+        <!-- End  row-->
+
+        <!-- Start row-->
+        <div class="row socials">
+            <div class="col-md-12">
+                <a href="">facebook</a>
+                <a href=""> twitter</a>
+                <a href="">google+</a>
+                <a href="">dribbble</a>
+                <a href="">instagram</a>
+            </div>
+        </div>
+        <!-- End row-->
+
+    </div>
+    <!-- End  container-->
+
+</header>
+<!-- End section header -->
+
+
+<!--Start section  About -->
+<section id="navabout" class="about-section default-section">
+    <!-- Start container-->
+    <div class="container">
+        <!-- Start row-->
+        <div class="row">
+            <div class="col-md-12">
+                <img src="./assets/img/about.svg" class="section-img" alt="" data-pagespeed-url-hash="2647403906" >
+                <h2 class="section-title">About</h2>
+            </div>
+        </div>
+        <!-- End row-->
+        <!-- Start row-->
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <h3>About Me</h3>
+                <!-- Start about-info-->
+                <p class="about-info">
+                    Name
+                    <span>Jonh Doe</span>
+                </p>
+                <!-- End about-info-->
+                <!-- Start about-info-->
+                <p class="about-info">
+                    Date of birth
+                    <span>November 24, 1990</span>
+                </p>
+                <!-- End about-info-->
+                <!-- Start about-info-->
+                <p class="about-info">
+                    E-mail
+                    <span>info@yourdomain.com</span>
+                </p>
+                <!-- End about-info-->
+                <!-- Start about-info-->
+                <p class="about-info">
+                    Address
+                    <span>144 King St, Melbourne VIC</span>
+                </p>
+                <!-- End about-info-->
+                <!-- Start about-info-->
+                <p class="about-info">
+                    Phone
+                    <span>012-3456-7890</span>
+                </p>
+                <!-- End about-info-->
+                <!-- Start about-info-->
+                <p class="about-info">
+                    Website
+                    <span>www.themeforest.net</span>
+                </p>
+                <!-- End about-info-->
+            </div>
+            <div class="col-md-4">
+                <h3>
+                    Hello, i’m web designer</h3>
+                <!-- Start hello text top-->
+                <p class="text-big">I'm Jonh Doe, a Web Designer living and working
+                    in Chernivtsy, and this is my space on the
+                    interwebs.
+                </p>
+                <!-- End hello text top-->
+                <!-- Start hello text-->
+                <p>My first encounter with design was back in the
+                    days of elementary school, in art class, and since
+                    then, design is something that I do every day. I love
+                    making simple and clean things that have
+                    complicated stories behind them, with a dose of
+                    humor, if possible.</p>
+                <!-- End hello text-->
+            </div>
+
+        </div>
+        <!-- End row-->
+        <!-- Start row-->
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-sm-6 col-md-4 text-right">
+                <a href="" class="btn-site btn-download">Download resume</a>
+            </div>
+            <div class="col-sm-6 col-md-4 ">
+                <a href="" class="btn-site btn-print">Print resume</a>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <!-- End row-->
+    </div>
+    <!-- End Container-->
+</section>
+<!--End Section About -->
+
+
+<!--Start section Resume -->
+<section id="navresume" class="resume-section default-section">
+    <!-- Start container-->
+    <div class="container">
+        <!-- Start row-->
+        <div class="row">
+            <div class="col-md-12">
+                <img src="./assets/img/resume.svg" class="section-img" alt="" data-pagespeed-url-hash="3575333276" >
+                <h2 class="section-title">Resume</h2>
+            </div>
+        </div>
+        <!-- End row-->
+        <!-- Start row-->
+        <div class="row skills-block">
+            <h3 class="text-center">Professional skills </h3>
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <!-- Start Progress-wrapper -->
+                <div class="progress-wrapper skillbar" data-percent="98">
+                    <label class="progress-bar-label">WordPress</label>
+                    <span class="progress-bar-number">80%</span>
+                    <!-- Start Progress -->
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <div class="container no-bottom">
-                        <div class="hide-if-mobile">
-                            <a href="index.html#" class="one-third-responsive tablet-social facebook-social"><i class="fa fa-facebook"></i>Facebook</a>
-                            <a href="index.html#" class="one-third-responsive tablet-social twitter-social"><i class="fa fa-twitter"></i>Twitter</a>
-                            <a href="index.html#" class="one-third-responsive last-column tablet-social google-social"><i class="fa fa-google-plus"></i>Google Plus</a>
-                        </div>
-                        <div class="hide-if-responsive">
-                            <a href="index.html#" class="mobile-social facebook-social"><i class="fa fa-facebook"></i>Like our page on Facebook</a>
-                            <a href="index.html#" class="one-half mobile-social twitter-social"><i class="fa fa-twitter"></i>Twitter</a>
-                            <a href="index.html#" class="one-half mobile-social last-column google-social"><i class="fa fa-google-plus"></i>Google</a>
-                        </div>
+                    <!-- End Progress -->
+                </div>
+                <!-- End Progress-wrapper -->
+                <!-- Start Progress-wrapper -->
+                <div class="progress-wrapper">
+                    <label class="progress-bar-label">HTML & CSS</label>
+                    <span class="progress-bar-number">92%</span>
+                    <!-- Start Progress -->
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <div class="decoration"></div>
-                    <div class="one-half-responsive">
-                        <div class="container no-bottom">
-                            <h3>Contact Information</h3>
-                            <p>
-                                <strong>Postal Information</strong><br> PO Box 16122 Collins Street West<br> Victoria 8007 Australia
-                            </p>
-                            <p>
-                                <strong>Envato Headquarters</strong><br> 121 King Street, Melbourne <br> Victoria 3000 Australia
-                            </p>
-                            <p>
-                                <strong>Contact Information:</strong><br>
-                                <a href="index.html#" class="contact-call"><i class="fa fa-phone"></i>Phone: + 123 456 7890</a>
-                                <a href="index.html#" class="contact-text"><i class="fa fa-comments"></i>Message: + 123 456 7890</a>
-                                <a href="index.html#" class="contact-mail"><i class="fa fa-envelope"></i>Email: <span class="__cf_email__" data-cfemail="701d11191c30141f111d191e5e131f1d">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a>
-                                <a href="index.html#" class="contact-facebook"><i class="fa fa-facebook"></i>Fanpage: enabled.labs</a>
-                                <a href="index.html#" class="contact-twitter"><i class="fa fa-twitter"></i>Twitter: @iEnabled</a>
-                            </p>
-                        </div>
+                    <!-- End Progress -->
+                </div>
+                <!-- End Progress-wrapper -->
+                <!-- Start Progress-wrapper -->
+                <div class="progress-wrapper">
+                    <label class="progress-bar-label">PHP</label>
+                    <span class="progress-bar-number">75%</span>
+                    <!-- Start Progress -->
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <div class="decoration hide-if-responsive"></div>
-                    <div class="one-half-responsive last-column">
-                        <h3>Send us an email!</h3>
-                        <p>Use the form to send us a message, it's AJAX and PHP powered and it's easy to use!</p>
-                        <div class="container no-bottom">
-                            <div class="contact-form no-bottom">
-                                <div class="formSuccessMessageWrap" id="formSuccessMessageWrap">
-                                    <div class="big-notification green-notification">
-                                        <h3 class="uppercase">Message Sent </h3>
-                                        <a href="index.html#" class="close-big-notification">x</a>
-                                        <p>Your message has been successfuly sent. Please allow up to 48 hours for a reply! Thank you!</p>
+                    <!-- End Progress -->
+                </div>
+                <div class="col-md-3"></div>
+                <!-- End Progress-wrapper -->
+            </div>
+            <div class="col-md-4">
+                <!-- Start Progress-wrapper -->
+                <div class="progress-wrapper">
+                    <label class="progress-bar-label">Java Script</label>
+                    <span class="progress-bar-number">78%</span>
+                    <!-- Start Progress -->
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <!-- End Progress -->
+                </div>
+                <!-- End Progress-wrapper -->
+                <!-- Start Progress-wrapper -->
+                <div class="progress-wrapper">
+                    <label class="progress-bar-label">photoshop</label>
+                    <span class="progress-bar-number">87%</span>
+                    <!-- Start Progress -->
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <!-- End Progress -->
+                </div>
+                <!-- End Progress-wrapper -->
+                <!-- Start Progress-wrapper -->
+                <div class="progress-wrapper">
+                    <label class="progress-bar-label">illustrator</label>
+                    <span class="progress-bar-number">93%</span>
+                    <!-- Start Progress -->
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <!-- End Progress -->
+                </div>
+                <div class="col-md-3"></div>
+                <!-- End Progress-wrapper -->
+            </div>
+        </div>
+        <!-- End row-->
+        <!-- Start row-->
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <img src="./assets/img/devices.svg" alt="" data-pagespeed-url-hash="3266942338" >
+            </div>
+            <div class="col-md-4">
+                <!-- Start ul -->
+                <ul class="resume-list">
+                    <li>Website design</li>
+                    <li>Mobile and Responsive websites</li>
+                    <li>Template/CMS based websites</li>
+                    <li>iOS and Android App development</li>
+                    <li>Branding</li>
+                    <li>Copywriting</li>
+                </ul>
+                <!-- End ul -->
+            </div>
+        </div>
+        <!-- End row-->
+    </div>
+    <!-- End container-->
+</section>
+<!--End section  resume -->
+
+
+<!-- Start section  portfolio -->
+<section id="navportfolio" class="portfolio-section default-section">
+    <!-- Start container-->
+    <div class="container">
+        <!-- Start row-->
+        <div class="row">
+            <div class="col-md-12">
+                <img src="./assets/img/portfolio.svg" class="section-img" alt="" data-pagespeed-url-hash="3507012741" >
+                <h2 class="section-title">Works</h2>
+            </div>
+        </div>
+        <!-- End row-->
+        <!-- Start row-->
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+
+                <!-- Start controls-->
+                <div class="controls">
+                    <!-- Start filter inner-->
+                    <div class="filter-inner">
+                        <!-- Start filter btn-site group-->
+                        <div class="filter-btn-group">
+                            <button class="filter" data-filter="all">All</button>
+                            <button class="filter" data-filter=".web">Web</button>
+                            <button class="filter" data-filter=".print">Print</button>
+                            <button class="filter" data-filter=".app">App</button>
+                        </div>
+                        <!-- End filter btn group-->
+                    </div>
+                    <!-- End filter inner-->
+                </div>
+                <!-- End controls-->
+
+                <!-- Start popup gallery-->
+                <div id="container-portfolio" class="popup-gallery grid">
+                    <!-- Start mix-->
+                    <div class="mix web">
+                        <!-- Start popup content-->
+                        <a class="popup-content popup port-item-cont" href="#work-1">
+                            <img src="./assets/img/portfolio/xairplane.jpg" alt="" data-pagespeed-url-hash="206619741" >
+                            <div class="hover-content">Airplane</div>
+                        </a>
+                        <!-- End popup content-->
+                        <!-- Start hidden-->
+                        <div class="hidden">
+                            <div class="podrt-desc mfp-hide" id="work-1">
+                                <div class="modal-box-content">
+                                    <!-- Start container-->
+                                    <div class="container">
+                                        <!-- Start row-->
+                                        <div class="row">
+                                            <!-- End row-->
+                                            <!-- Start modal box zone-->
+                                            <div class="modal-box-zone">
+
+                                                <div class="cristal">
+
+                                                    <div class="modal-box-img">
+                                                        <button title="Close (Esc)" type="button" class="mfp-close mfp-close-visible">×
+                                                        </button>
+                                                        <img class="modal-box-img" src="./assets/img/portfolio/xairplane.jpg" alt="" data-pagespeed-url-hash="206619741" >
+                                                    </div>
+                                                    <div class="modal-box-txt">
+                                                        <h3 class="modal-title ">Project title </h3>
+
+                                                        <p class="modal-box-p">Duis aute irure dolor in
+                                                            reprehenderit in voluptate velit esse
+                                                            cillum dolore eu fugiat nulla pariatur
+                                                            sint occaecat cupidatat non proident, sunt in culpa qui
+                                                            officia
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End modal box zone-->
+                                        </div>
                                     </div>
+                                    <!-- End container-->
                                 </div>
-                                <form action="http://www.enableds.com/products/profiler/php/contact.php" method="post" class="contactForm" id="contactForm">
-                                    <fieldset>
-                                        <div class="formValidationError" id="contactNameFieldError">
-                                            <div class="static-notification-red tap-dismiss-notification">
-                                                <p class="center-text uppercase">Name is required!</p>
-                                            </div>
-                                        </div>
-                                        <div class="formValidationError" id="contactEmailFieldError">
-                                            <div class="static-notification-red tap-dismiss-notification">
-                                                <p class="center-text uppercase">Mail address required!</p>
-                                            </div>
-                                        </div>
-                                        <div class="formValidationError" id="contactEmailFieldError2">
-                                            <div class="static-notification-red tap-dismiss-notification">
-                                                <p class="center-text uppercase">Mail address must be valid!</p>
-                                            </div>
-                                        </div>
-                                        <div class="formValidationError" id="contactMessageTextareaError">
-                                            <div class="static-notification-red tap-dismiss-notification">
-                                                <p class="center-text uppercase">Message field is empty!</p>
-                                            </div>
-                                        </div>
-                                        <div class="formFieldWrap">
-                                            <label class="field-title contactNameField" for="contactNameField">Name:<span>(required)</span></label>
-                                            <input type="text" name="contactNameField" value="" class="contactField requiredField" id="contactNameField" />
-                                        </div>
-                                        <div class="formFieldWrap">
-                                            <label class="field-title contactEmailField" for="contactEmailField">Email: <span>(required)</span></label>
-                                            <input type="text" name="contactEmailField" value="" class="contactField requiredField requiredEmailField" id="contactEmailField" />
-                                        </div>
-                                        <div class="formTextareaWrap">
-                                            <label class="field-title contactMessageTextarea" for="contactMessageTextarea">Message: <span>(required)</span></label>
-                                            <textarea name="contactMessageTextarea" class="contactTextarea requiredField" id="contactMessageTextarea"></textarea>
-                                        </div>
-                                        <div class="formSubmitButtonErrorsWrap">
-                                            <input type="submit" class="buttonWrap button button-green contactSubmitButton" id="contactSubmitButton" value="SUBMIT" data-formId="contactForm" />
-                                        </div>
-                                    </fieldset>
-                                </form>
+
                             </div>
                         </div>
+                        <!-- End hidden-->
                     </div>
-                </div>
-                <div class="container no-bottom">
-                    <div class="decoration"></div>
-                    <p class="center-text half-bottom">&copy Copyright Mister Diaz 2016. All rights reserved.</p>
-                    <div class="footer-socials">
-                        <a target="_blank" href="https://www.linkedin.com/in/ldiazjaramillo" class="footer-icon footer-facebook"><i class="fa fa-linkedin"></i></a>
-                        <a target="_blank" href="https://twitter.com/luisdiaz" class="footer-icon footer-twitter"><i class="fa fa-twitter"></i></a>
-                        <a target="_blank" href="https://github.com/ldiazjaramillo" class="footer-icon footer-github black"><i class="fa fa-github"></i></a>
-                        <a href="index.html#" class="footer-icon footer-backtotop"><i class="fa fa-angle-up"></i></a>
+                    <!-- End mix-->
+                    <!-- Start mix-->
+                    <div class="mix print">
+                        <!-- Start popup content-->
+                        <a class="popup-content  popup port-item-cont" href="#work-2">
+                            <img src="./assets/img/portfolio/xbottle.jpg" alt="" data-pagespeed-url-hash="2423273229" >
+                            <div class="hover-content">Bottle</div>
+                        </a>
+                        <!-- End popup content-->
+                        <!-- Start hidden-->
+                        <div class="hidden">
+                            <div class="podrt-desc mfp-hide" id="work-2">
+                                <div class="modal-box-content">
+                                    <!-- Start container-->
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="modal-box-zone">
+
+
+                                                <div class="cristal">
+
+                                                    <div class="modal-box-img">
+                                                        <button title="Close (Esc)" type="button" class="mfp-close mfp-close-visible">×
+                                                        </button>
+                                                        <img class="modal-box-img" src="./assets/img/portfolio/xbottle.jpg" alt="" data-pagespeed-url-hash="2423273229" >
+                                                    </div>
+                                                    <div class="modal-box-txt">
+                                                        <h3 class="modal-title ">Project title </h3>
+
+                                                        <p class="modal-box-p">Duis aute irure dolor in
+                                                            reprehenderit in voluptate velit esse
+                                                            cillum dolore eu fugiat nulla pariatur
+                                                            sint occaecat cupidatat non proident, sunt in culpa qui
+                                                            officia
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- End container-->
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End hidden-->
                     </div>
+                    <!-- End mix-->
+                    <!-- Start mix-->
+                    <div class="mix app">
+                        <!-- Start popup content-->
+                        <a class="popup-content  popup port-item-cont" href="#work-3">
+                            <img src="./assets/img/portfolio/xchair.jpg" alt="" data-pagespeed-url-hash="663440104" >
+                            <div class="hover-content">Chair</div>
+                        </a>
+                        <!-- End popup content-->
+                        <!-- Start hidden-->
+                        <div class="hidden">
+                            <div class="podrt-desc mfp-hide" id="work-3">
+                                <div class="modal-box-content">
+                                    <!-- Start container-->
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="modal-box-zone">
+
+
+                                                <div class="cristal">
+
+                                                    <div class="modal-box-img">
+                                                        <button title="Close (Esc)" type="button" class="mfp-close mfp-close-visible">×
+                                                        </button>
+                                                        <img class="modal-box-img" src="./assets/img/portfolio/xchair.jpg" alt="" data-pagespeed-url-hash="663440104" >
+                                                    </div>
+                                                    <div class="modal-box-txt">
+                                                        <h3 class="modal-title ">Project title</h3>
+
+                                                        <p class="modal-box-p">Duis aute irure dolor in
+                                                            reprehenderit in voluptate velit esse
+                                                            cillum dolore eu fugiat nulla pariatur
+                                                            sint occaecat cupidatat non proident, sunt in culpa qui
+                                                            officia
+                                                        </p>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- End container-->
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End hidden-->
+                    </div>
+                    <!-- End mix-->
+                    <div class="clear"></div>
                 </div>
             </div>
+            <!-- End popup gallery-->
+            <div class="col-md-12">
+                <a href="portfolio.html" class="btn-site">Show more</a>
+            </div>
         </div>
+        <!-- End row-->
     </div>
+    <!-- End container-->
+</section>
+<!-- End section portfolio -->
 
-<script type="text/javascript" src="scripts/jquery.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script type="text/javascript" src="scripts/framework.plugins.js"></script>
-<script type="text/javascript" src="scripts/custom.js"></script>
+
+<!-- Start Section Contact -->
+<section id="navcontact" class="contact-section default-section">
+    <!-- Start container-->
+    <div class="container">
+
+        <!-- Start row-->
+        <div class="row">
+            <img src="./assets/img/contacts.svg" class="section-img" alt="" data-pagespeed-url-hash="3570123562" >
+            <h2 class="section-title">Contact</h2>
+        </div>
+        <!-- End row-->
+
+        <!-- Start row-->
+        <div class="row">
+            <div class="col-md-2"></div>
+
+            <div class="col-md-4">
+
+                <!-- Start about info-->
+                <p class="contact-info">E-mail <span>info@yourdomain.com</span></p>
+                <!-- End about info-->
+
+                <!-- Start about info-->
+                <p class="contact-info">Address <span>144 King St, Melbourne VIC</span></p>
+                <!-- End about info-->
+
+                <!-- Start about info-->
+                <p class="contact-info">Phone <span>012-3456-7890</span></p>
+                <!-- End about info-->
+
+                <!-- Start about info-->
+                <p class="contact-info">Website <span>ukieweb.com</span></p>
+                <!-- End about info-->
+
+                <!-- Start social icon-->
+                <div class="social-icons">
+                    <a href="" class="social-item"><i class="uf uf-facebook"></i></a>
+                    <a href="" class="social-item"><i class="uf uf-twitter"></i></a>
+                    <a href="" class="social-item"><i class="uf uf-google-plus"></i></a>
+                    <a href="" class="social-item"><i class="uf uf-instagram"></i></a>
+                    <a href="" class="social-item"><i class="uf uf-dribbble"></i></a>
+                </div>
+                <!-- End social icon-->
+
+            </div>
+
+            <div class="col-md-4">
+
+                <!-- Start Form-->
+                <form action="./" method="post">
+                    <input type="text" name="name" class="input-text" placeholder="Name">
+                    <input type="text" name="email" class="input-text" placeholder="Email">
+                    <input type="text" name="subject" class="input-text" placeholder="Subject">
+                    <textarea name="message" class="input-textarea" placeholder="Message"></textarea>
+                    <input type="submit" class="btn-site btn-submit" value="Send Message">
+                </form>
+                <!-- End Form-->
+
+            </div>
+
+        </div>
+        <!-- End row-->
+
+    </div>
+    <!-- End container-->
+
+    <!-- Start Copyright -->
+    <div class="copyright"><i class="uf uf-copyright"></i> Copyright 2016 By UkieWeb. All rights reserved.</div>
+    <!-- End Copyright -->
+
+</section>
+<!-- End Section Contact -->
+
+<!-- Scroll to Top -->
+<a href="#navhead" class="scroll-to-top"><i class="uf uf-arrow-up"></i></a>
+<!-- End Scroll to Top -->
+
+<!-- Scripts -->
+<script src="./assets/js/jquery.min.js.pagespeed.jm.pJg2D_p7ze.js"></script>
+<script src="./assets/js/bootstrap.min.js+jquery.mixitup.js.pagespeed.jc.QOVjaGEVMp.js"></script><script>eval(mod_pagespeed_iw72LZkHEP);</script>
+<script>eval(mod_pagespeed_3TdT3AoLjU);</script>
+<script src="./assets/js/jquery.magnific-popup.min.js+jquery.appear.js+jquery.inview.min.js+jquery.knob.min.js+jpreloader.js+script.js+smooth-scroll.js+menu-scroll.js.pagespeed.jc.ujdRPdfb_T.js"></script><script>eval(mod_pagespeed_0dFQyJcnjX);</script>
+<script>eval(mod_pagespeed_VsPGrQ4o$3);</script>
+<script>eval(mod_pagespeed_hYliPJxlaJ);</script>
+<script>eval(mod_pagespeed_pGiFWtJYPa);</script>
+<script>eval(mod_pagespeed_qbzzF0xJ0h);</script>
+<script>eval(mod_pagespeed_4gcpamfrVQ);</script>
+<script>eval(mod_pagespeed_Ilq5BaFHiM);</script>
+<script>eval(mod_pagespeed_7NcBhrDRm6);</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.4/typed.min.js"></script>
+<script>
+    $(function(){
+        $("#typed").typed({
+            strings: ["PHP Developer.", "Python Developer."],
+            typeSpeed: 50,
+            backSpeed: 50,
+            shuffle: false,
+            backDelay: 800,
+            loop: true
+        });
+    });
+</script>
 </body>
-
 </html>
